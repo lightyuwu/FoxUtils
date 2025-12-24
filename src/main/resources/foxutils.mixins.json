@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "de.lighty.foxutils.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FoxUtilsBlockMixin",
+		"FoxUtilsEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

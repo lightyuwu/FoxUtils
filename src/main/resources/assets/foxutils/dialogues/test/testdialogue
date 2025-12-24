@@ -1,0 +1,3 @@
+This is a dialogue line
+----
+block(0,0,0,"minecraft:stone")|This is a line that occurs if the block is stone
