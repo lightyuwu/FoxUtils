@@ -4,7 +4,9 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"FoxUtilsBlockMixin",
-		"FoxUtilsEntityMixin"
+		"FoxUtilsEntityMixin",
+		"PlayerChatMessageMixin",
+		"ServerGamePacketListenerImplMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
